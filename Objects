@@ -1,0 +1,8 @@
+//Make An Object From two arrays
+function createObject(titles, values) {
+  let result = {};
+  for (let i = 0; i < titles.length; i++) {
+    result[titles[i]] = values[i];
+  }
+  return result;
+}
